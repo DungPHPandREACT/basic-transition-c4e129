@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: red;
+  font-weight: bold;
+}
+
+a:hover {
+  background: peru;
+  font-size: 30px;
+  color: black;
+}
+
+a:active {
+  background: green;
+  font-size: 30px;
+  color: yellowgreen;
+}
+
+.box-container {
+  width: 200px;
+  height: 200px;
+  background: red;
+  /* transition: 2s; */
+  transition-duration: 2s;
+  /* transition-delay: 5s; */
+  transition-timing-function: cubic-bezier(0.33, 0.27, 1, -0.03);
+}
+
+.box-container:hover {
+  /* background: pink; */
+  transform: translateX(50px);
+}
